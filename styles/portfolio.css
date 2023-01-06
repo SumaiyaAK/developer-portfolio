@@ -173,3 +173,89 @@ section{
     height:50px;
     width: 50px;
 }
+
+/* resume content */
+
+
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.resume .description{
+    color: #757575;
+
+}
+
+.resume-button{
+    margin-top:50px ;
+    text-align: center;
+}
+
+/* contact styles */
+
+.contact{
+    display: flex;
+    gap: 200px;
+    padding: 100px 100px;
+    background: #f3fdff;
+    width: 100% 100%;
+
+}
+.contact .section-title{
+    text-align:justify;
+    
+
+}
+
+.icon-IMG{
+    height:50px;
+    width: 50px;
+    margin-top: 30px;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    
+}
+
+input{
+    height:60px;
+   
+}
+
+/* footer styles */
+
+footer .end {
+    background: #7bc1cf;
+    background-image: url(../images/pexels-karolina-grabowska-4194849.jpg);
+    background-repeat: no-repeat;
+    background-position: absolute ;
+    
+}
+
+
